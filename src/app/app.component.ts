@@ -7,7 +7,6 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'a11y-p1';
   public form: FormGroup = null;
 
   constructor(formBuilder: FormBuilder) {
