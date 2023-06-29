@@ -21,7 +21,6 @@ export class AppComponent {
   }
 
   public submit(): void {
-    this.form.get('yesNoAnswer').disable();
     console.log(this.form.value);
   }
 }
